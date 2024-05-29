@@ -9,7 +9,7 @@ const ownerSchema = mongoose.Schema({
     email: String,
     password: String,
     products: {
-        typeof: Array,
+        type: Array,
         default: []
     },
     picture: String,
